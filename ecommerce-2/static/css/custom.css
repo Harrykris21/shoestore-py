@@ -1,0 +1,107 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+<style>
+    /* Add some custom styles for the cards */
+    .my_bottom_margin {
+        margin-bottom: 20px;
+    }
+
+    .my_image {
+        margin-top:50px;
+    }
+
+    /* Add box-shadow to the cards */
+    .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+    }
+
+    /* Add hover effect */
+    .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+</style>
+/*** Navbar ***/
+.nav-item{
+    letter-spacing:.2em;
+    font-size:14px;
+    text-transform:uppercase;
+
+}
+.dropdown-item{
+    letter-spacing:.2em;
+    font-size:14px;
+    text-transform:uppercase;
+}
+
+.my_footer{
+    background-color:#f8f9fa;
+    height:60px;
+}
+.my_footer{
+    padding-top:20px;
+    font-size:14px;
+}
+
+/*** category page ***/
+
+.my_row_class{
+    padding-top:15px;
+}
+
+.my_row_class .mx_auto{
+    color:#000;
+    font-size:12px;
+}
+.my_image{
+    width:75%;
+    height:auto;
+}
+.my_title{
+    font-size:16px;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+}
+.my_image_padding{
+    padding:5px;
+}
+.my_bottom_margin{
+    margin-bottom:10px;
+}
+.card-body{
+    font-size:14px;
+    text-transform:uppercase;
+    letter-spacing:.2em;
+}
+/*** product page ***/
+
+.my_prod_row_class{
+padding-top:15px;
+padding-bottom:20px;
+}
+
+.my_prod_row_class .mx_auto
+{
+color:#000;
+font-size:12px;
+text-decorate:none;
+
+}
+.my_prod_title{
+font-size:16px;
+text-transform:uppercase;
+letter-spacing:.2em;
+padding-top:15x;
+padding-bottom:10px;
+}
+
+.my_prod_text{
+padding-right:20px;
+}
+
+.my_search_text{
+padding-top:20px;
+}
+
